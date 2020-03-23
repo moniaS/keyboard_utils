@@ -9,8 +9,8 @@ import 'keyboard_options.dart';
 
 class KeyboardUtils {
   KeyboardUtils() {
-    _keyboardSubscription ??=
-        _eventChannel.receiveBroadcastStream().listen(_onKeyboardListener);
+//    _keyboardSubscription ??=
+//        _eventChannel.receiveBroadcastStream().listen(_onKeyboardListener);
   }
 
   static const EventChannel _eventChannel = EventChannel('keyboard_utils');
